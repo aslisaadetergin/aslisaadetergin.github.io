@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title: add your Portfolio websites's title here -->
+  <title>Aslı Saadet Ergin| Computer Engineer</title>
+
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="aslisaadet, Computer Engineer,software developer" />
+
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Merhaba Ben Aslı Saadet ERGİN. Konya Teknik Üniversitesi 
+  Bilgisayar Mühendisliği Bölümünden 2019 yılında mezun oldum. Okul döneminde kendimi web uygulama, arduino ve mobil üzerine 
+  geliştirdim. " />
+
+  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+  <link rel="icon" type="image/png" href="./assets/fav_pink.png" />
+
+  <!-- Add your primary-theme color for the value of content -->
+  <meta name="theme-color" content="#5b86e5" />
+
+  
+  <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+  <meta property="og:title" content="Aslı Saadet ERGİN | Computer Engineer" />
+  <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+  <meta property="og:description" content="Aslı Saadet ERGİN | Computer Engineer" />
+  <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+
+ 
+
+  <meta property="twitter:title" content="Aslı Saadet ERGİN | Computer Engineer" />
+  <!-- short description that shows up while your portfolio is shared -->
+
+  <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://ferhatozcelik.com/assets/web_view.png"
+    />
+
+  <!-- link tags -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
+
+
+ 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WX67TQHTH7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WX67TQHTH7');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5KC7RJF');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KC7RJF" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- /Analytics -->
+  <script src="https://cdn.jsdelivr.net/gh/anuraghazra/Verly.js@v1.2.1/dist/verly.bundle.js"></script>
+
+  <script>
+    window.onload = function () {
+      let examples = [
+        { title: 'behavior', src: './index.html' },
+      ];
+
+
+      const dom_ui = document.getElementById('ui');
+      const frame = document.getElementById('frame');
+
+      frame.src = examples[0].src;
+      if (window.location.hash) {
+        frame.src = window.location.hash.replace('#', '');
+      }
+      var content = frame.contentWindow.document.body;
+
+      content.style.padding = 0;
+      content.style.margin = 0;
+      for (let i = 0; i < examples.length; i++) {
+        let button = document.createElement('button');
+        button.innerHTML = examples[i].title;
+        button.dataset.src = examples[i].src;
+        button.onclick = function (e) {
+          frame.src = button.dataset.src;
+          window.location.hash = button.dataset.src;
+        }
+        dom_ui.appendChild(button);
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- partial -->
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+<img class="img-fluid" src= "./assets/aslı_logo_kenarsız-01.png" alt="Profile Image"  width='80px' align = 'left' style="margin:18px"/>
+    <!-- Hero Section -->
+    <div id="hero">
+	
+      <section class="container">
+	    
+        <h1 class="hero-title">
+          Merhaba, Ben <span class="text-color-main name">Aslı Saadet Ergin </span>
+        </h1>
+
+        <h1 class="hero-title-m">
+          Computer Engineer
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="https://github.com/erginsa">Github</a>
+        </p>
+
+      </section>
+
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div>
+      </a>
+    </div>
+
+  </div>
+  <script src="./javascript/script.js"></script>
+  <!-- END Hero Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Hakkımda</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+        <img class="img-fluid" src= "./assets/aslı_logo_kenarsız-01.png" alt="Profile Image" />   
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+           Merhaba Ben Aslı Saadet ERGİN. Konya Teknik Üniversitesi 
+             Bilgisayar Mühendisliği Bölümüne 2015 yılında başlayarak yazılıma ilk adımlarımı attım.
+			 2019 yılında mezun olduktan sonra
+			 Okul döneminde kendimi web uygulama, arduino ve mobil üzerine çalışmalar geliştirdim.
+          </p>
+          <p class="about-wrapper__info-text">
+            Ardunio ile akıllı otopark sistemi projesi geliştirim. Mobil uygulamada Android ile kapalı alan navigasyon projesi yazdım.
+		    Tam zamanlı olarak web uygulama geliştirme ile ilgileniyorum ve yeni teknolojileri takip etmekteyim.
+          </p>
+          <span class="about-wrapper__cta">
+            <a href=".\assets\MyCv3.pdf" target="_blank" class="cta-btn cta-btn--resume">Öz Geçmiş</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+ 
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">İletişim</h2>
+      <div class="contact-wrapper">
+        <a href="mailto:erginsaadet03@gmail.com" class="cta-btn cta-btn--resume">Mail Gönder</a>
+      </div>
+    </div>
+  </section>
+  <!-- END Contact Section -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+       
+        <a href="https://www.instagram.com/aslisaadetergn/" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aslisaadetergin" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/erginsa" target="_blank" rel="noopener noreferrer" aria-label="github">
+          <i class="fa fa-github"></i>
+        </a>
+      </div>
+      <hr />
+      <p class="footer__text">
+        &copy; <span id="year"></span>
+        <a>Aslı Saadet ERGİN</a><br />Made
+        with &hearts;
+      </p>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
+
+</html>
