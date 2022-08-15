@@ -69,8 +69,7 @@ a:hover {
 @media (max-width: 37.5em) {
     .text-color-main {
         margin: 0;
-        background-image: none;
-        -webkit-text-fill-color: #5b86e5;
+        background-image: linear-gradient(126deg, #efa8cc 0%, #dd0f76 100%);
         box-shadow: none
     }
 }
@@ -591,9 +590,9 @@ section .row span {
 }
 
 #hero .hero-cta {
-    /* alignment-baseline: inherit; */
-    /* align-items: flex-end; */
-    display: table;
+    /* alignment-baseline: inherit; 
+     align-items: flex-end; 
+    display: table;*/
 }
 
 @media (max-width: 56.25em) {
