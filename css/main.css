@@ -591,8 +591,8 @@ section .row span {
 
 #hero .hero-cta {
     /* alignment-baseline: inherit; 
-     align-items: flex-end; 
-    display: table;*/
+     align-items: flex-end; */
+    display: table;
 }
 
 @media (max-width: 56.25em) {
